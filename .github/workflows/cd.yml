@@ -33,4 +33,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: cov
-          publish_dir: target/site/jacoco
+
+publish_dir: target/site/jacoco
